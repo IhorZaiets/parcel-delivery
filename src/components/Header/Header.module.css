@@ -1,0 +1,12 @@
+.header{
+    height: 10%;
+    background-color: #659DBD;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title{
+    color: white;
+}
