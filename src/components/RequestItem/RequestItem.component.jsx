@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 import { Button } from '../../common/Button/Button.component.jsx';
 import { deleteRequest } from '../../store/requests/actionCreators';
@@ -16,9 +17,11 @@ const RequestItem = (props) => {
 		deleteRequest,
 		id,
 	} = props;
+	const navigation = useNavigate();
 
 	const onEdit = (event) => {
 		event.preventDefault();
+		navigation(`/update/${id}`);
 	};
 
 	const onDelete = (event) => {

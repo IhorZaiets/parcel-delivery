@@ -15,6 +15,7 @@ function App() {
 				<Routes>
 					<Route path='/' element={<RequestList />} />
 					<Route path='/request-form' element={<RequestForm />} />
+					<Route path='/update/:id' element={<RequestForm />} />
 				</Routes>
 			</main>
 		</>

@@ -1,0 +1,32 @@
+.request-form{
+    background-color: white;
+    padding: 20px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 30px;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.description{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+}
+
+.btn{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #8D8741;
+    color: white;
+}
+
+.red{
+    color:red;
+    border-color: red;
+}

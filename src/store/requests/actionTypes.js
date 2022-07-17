@@ -1,6 +1,8 @@
 const RequestTypes = {
 	ADD_REQUEST: 'ADD_REQUEST',
 	DELETE_REQUEST: 'DELETE_REQUEST',
+	EDIT_REQUEST: 'EDIT_REQUEST',
+	FETCH_REQUESTS: 'FETCH_REQUESTS',
 };
 
 export default RequestTypes;
